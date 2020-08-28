@@ -1,0 +1,51 @@
+/*цвет основного текста #212121*/
+/*вторичный цвет текста #757575*/
+/*белый цвет текста #FFFFFF*/
+/*голубой цвет текста #2196F3*/
+/*цвет логотипа #000000*/
+/*вторичный цвет фона #2F303A*/
+/*акцент  кнопка #2196F3*/
+
+/*project-section*/
+
+.project .project-list-title {
+    color: var(--title-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .project-list-text {
+    color: var(--primary-text-color);
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*button*/
+
+/*menu-section (buttons)*/
+
+.btn-secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.menu .btn-secondary:hover,
+.menu .btn-secondary:focus {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
